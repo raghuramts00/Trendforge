@@ -1,2 +1,13 @@
-# Trendforge
-Al-powered Trend →Product engine that automatically scrapes trending topics, scores them, and generates sellable digital product ideas. Built with Next.js, Node/Python, Groq, Supabase, Tailwind, and Resend.
+# TrendForge AI
+      
+## Setup
+
+1. `npm install`
+2. Create `.env.local` and add `API_KEY=...`
+3. `npm run dev`
+
+## Structure
+
+- `app/page.tsx`: Entry point
+- `components/TrendForgeApp.tsx`: Main Application Logic
+- `lib/api.ts`: Backend Services
